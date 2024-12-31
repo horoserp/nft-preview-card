@@ -168,27 +168,31 @@ h1:active {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  /* section {
+  html {
+    font-size: 16px;
+  }
+
+  section {
     width: 327px;
     height: 544px;
   }
+
+  .active,
+  .active > img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .active > img:nth-child(2) {
+    left: 115px;
+    top: 115px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
   :where(.content > p, .purchase, hr, .creator, .content > h1) {
-    padding-bottom: 10px;
-  } */
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 767px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+    padding-bottom: 16px;
+  }
 }
