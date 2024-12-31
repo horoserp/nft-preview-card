@@ -17,14 +17,14 @@
     ],
     "screenshots": [
       {
-       "src": "https://horoserp.github.io/nft-preview-card/assets/images/desktop-design.jpg",
+       "src": "https://horoserp.github.io/nft-preview-card/assets/images/desktop-screenshot.jpeg",
         "sizes": "1440x900",
         "type": "image/png",
         "form_factor": "wide",
         "label": "Desktop Rating Component"
       },
       {
-        "src": "https://horoserp.github.io/nft-preview-card/assets/images/mobile-design.jpg",
+        "src": "https://horoserp.github.io/nft-preview-card/assets/images/mobile-screenshot.jpeg",
          "sizes": "375x667",
          "type": "image/png",
          "form_factor": "narrow",
